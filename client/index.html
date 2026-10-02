@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduPulse AI — Student Early-Intervention Platform</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Axios CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="/" class="brand">📊 EduPulse AI</a>
+    <nav class="nav-links">
+      <a href="/login.html" class="nav-link">Login</a>
+      <a href="/register.html" class="nav-link">Register</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <h1 class="card-title">Welcome to EduPulse AI</h1>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+        An AI-powered attendance management and student early-intervention decision-support system.
+      </p>
+
+      <div style="margin-bottom: 1.5rem;">
+        <strong>Backend Connection: </strong>
+        <span id="backend-status" class="status-badge" style="background-color: #f1f5f9; color: #64748b;">
+          Checking...
+        </span>
+      </div>
+
+      <div style="display: flex; gap: 1rem;">
+        <a href="/login.html" class="btn btn-primary">Get Started / Sign In</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    EduPulse AI &copy; 2026. Decision-Support Platform for Educators.
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
